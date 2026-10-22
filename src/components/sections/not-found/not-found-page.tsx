@@ -8,10 +8,10 @@ export function NotFoundPage() {
     <main className="relative flex min-h-screen w-full items-center justify-center overflow-hidden px-4 py-12">
       <div
         aria-hidden="true"
-        className="grid-lines pointer-events-none absolute inset-0 opacity-70"
+        className="pointer-events-none absolute inset-0 opacity-50"
         style={{
           backgroundImage:
-            "linear-gradient(to right, color-mix(in srgb, var(--foreground) 10%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in srgb, var(--foreground) 10%, transparent) 1px, transparent 1px)",
+            "linear-gradient(to right, rgb(255 255 255 / 0.16) 2px, transparent 2px), linear-gradient(to bottom, rgb(255 255 255 / 0.16) 2px, transparent 2px)",
           backgroundSize: "48px 48px",
         }}
       />
