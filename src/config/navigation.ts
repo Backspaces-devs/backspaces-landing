@@ -40,7 +40,7 @@ export interface NavigationConfig {
     name: string;
     href: string;
     accessibleLabel: string;
-    /** Optional local image, e.g. "/logos/backspaces.svg" from public/logos/. */
+    /** Optional local image path from the public directory. */
     logoSrc?: string;
   };
   accessibility: {
@@ -68,10 +68,10 @@ const SOURCE_URL = "https://github.com/Backspaces-devs/backspaces-landing";
 
 export const navigationConfig: NavigationConfig = {
   brand: {
-    name: "backspaces",
+    name: "BACKSPACES",
     href: "/",
     accessibleLabel: "Backspaces home",
-    // logoSrc: "/logos/backspaces.svg",
+    logoSrc: "/logo.svg",
   },
   accessibility: {
     desktopLabel: "Main navigation",

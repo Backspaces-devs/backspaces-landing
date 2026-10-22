@@ -22,10 +22,7 @@
   flex-shrink: 0;
   width: 100%;
   border-bottom: 1px solid var(--nav-border);
-  background: var(--nav-background);
-  background: color-mix(in srgb, var(--nav-background) 92%, transparent);
-  -webkit-backdrop-filter: saturate(150%) blur(20px);
-  backdrop-filter: saturate(150%) blur(20px);
+  background: #050505;
 }
 
 .bs-nav-header-inner {
@@ -37,7 +34,7 @@
   box-sizing: border-box;
   width: 100%;
   max-width: var(--nav-max-width);
-  height: 64px;
+  height: 56px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -60,9 +57,10 @@
 .bs-nav-brand-mark {
   display: block;
   flex-shrink: 0;
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  object-fit: cover;
 }
 
 .bs-nav-desktop-nav {
@@ -168,11 +166,8 @@
 .bs-nav-mega-grid {
   display: grid;
   padding: 12px 6px;
-  border: 1px solid rgb(255 255 255 / 4%);
+  border: 1px none rgb(255 255 255 / 4%);
   border-radius: 10px;
-  background:
-    linear-gradient(130deg, rgb(255 255 255 / 2%), transparent),
-    var(--nav-surface);
 }
 
 .bs-nav-mega-group {
@@ -383,9 +378,7 @@
   padding: 0;
   overflow: hidden;
   border: 0;
-  background:
-    radial-gradient(ellipse at 0 35%, rgb(193 178 255 / 3%), transparent 65%),
-    var(--nav-background);
+  background: #050505;
   overscroll-behavior: none;
 }
 
@@ -404,10 +397,10 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 65px;
+  height: 56px;
   padding: 0 24px;
   border-bottom: 1px solid var(--nav-border);
-  background: var(--nav-background);
+  background: #050505;
 }
 
 .bs-nav-mobile-header .bs-nav-menu-button {
@@ -532,7 +525,7 @@
 /* Keep this 960px breakpoint in sync with navigation.ts. */
 @media (min-width: 960px) {
   .bs-nav-header-inner {
-    height: 72px;
+    height: 56px;
   }
 
   .bs-nav-desktop-nav {

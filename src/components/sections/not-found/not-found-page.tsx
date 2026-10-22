@@ -5,14 +5,14 @@ import { LiquidButton } from "@/components/ui/liquid-button";
 
 export function NotFoundPage() {
   return (
-    <main className="relative flex min-h-screen w-full items-center justify-center overflow-hidden px-4 py-12">
+    <main className="relative flex min-h-0 flex-1 w-full items-center justify-center overflow-hidden px-4 py-12">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-50"
+        className="pointer-events-none absolute inset-0 opacity-20"
         style={{
           backgroundImage:
-            "linear-gradient(to right, rgb(255 255 255 / 0.16) 2px, transparent 2px), linear-gradient(to bottom, rgb(255 255 255 / 0.16) 2px, transparent 2px)",
-          backgroundSize: "48px 48px",
+            "linear-gradient(to right, rgb(255 255 255 / 0.16) 1px, transparent 1px), linear-gradient(to bottom, rgb(255 255 255 / 0.16) 1px, transparent 1px)",
+          backgroundSize: "30px 30px",
         }}
       />
 
