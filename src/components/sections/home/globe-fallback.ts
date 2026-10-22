@@ -41,9 +41,9 @@ export function createCanvasGlobe(
       center,
       radius
     );
-    surface.addColorStop(0, "#17191e");
-    surface.addColorStop(0.75, "#101216");
-    surface.addColorStop(1, "#0c0e12");
+    surface.addColorStop(0, "#182033");
+    surface.addColorStop(0.75, "#101522");
+    surface.addColorStop(1, "#0b0f18");
     context.fillStyle = surface;
     context.beginPath();
     context.arc(center, center, radius, 0, Math.PI * 2);
@@ -63,7 +63,7 @@ export function createCanvasGlobe(
 
       const opacity = 0.08 + depth * 0.46;
       const dotRadius = Math.max(0.35, width / 700) * (0.6 + depth * 0.5);
-      context.fillStyle = `rgba(193, 197, 205, ${opacity})`;
+      context.fillStyle = `rgba(178, 195, 226, ${opacity})`;
       context.beginPath();
       context.arc(
         center + x * radius,

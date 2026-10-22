@@ -142,7 +142,7 @@
   z-index: 0;
   inset: -7%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(37 99 235 / 18%), transparent 65%);
+  background: radial-gradient(circle, rgb(37 99 235 / 12%), transparent 65%);
   filter: blur(32px);
 }
 
@@ -174,13 +174,13 @@
 
 .bs-home-globe-backplate {
   z-index: 2;
-  background: radial-gradient(circle at 35% 30%, #17191e, #101216 72%, #0c0e12);
+  background: radial-gradient(circle at 35% 30%, #182033, #101522 72%, #0b0f18);
 }
 
 .bs-home-globe-loading-dots {
   z-index: 3;
   background-image: radial-gradient(
-    rgb(190 194 203 / 28%) 0.7px,
+    rgb(178 195 226 / 30%) 0.7px,
     transparent 0.8px
   );
   background-size: 7px 7px;
