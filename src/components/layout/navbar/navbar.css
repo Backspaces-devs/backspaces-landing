@@ -9,20 +9,20 @@
   --nav-text: #f3f3f7;
   --nav-muted: #9b9daa;
   --nav-border: rgb(255 255 255 / 8%);
-  --nav-accent: #c1b2ff;
+  --nav-accent: #2563eb;
   --nav-max-width: 1280px;
   color: var(--nav-text);
   color-scheme: dark;
 }
 
 .bs-nav-header {
-  position: sticky;
+  position: absolute;
   top: 0;
   z-index: 50;
   flex-shrink: 0;
   width: 100%;
   border-bottom: 1px solid var(--nav-border);
-  background: #050505;
+  background: transparent;
 }
 
 .bs-nav-header-inner {
@@ -34,7 +34,7 @@
   box-sizing: border-box;
   width: 100%;
   max-width: var(--nav-max-width);
-  height: 56px;
+  height: 72px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -378,7 +378,7 @@
   padding: 0;
   overflow: hidden;
   border: 0;
-  background: #050505;
+  background: transparent;
   overscroll-behavior: none;
 }
 
@@ -397,10 +397,10 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 56px;
+  height: 64px;
   padding: 0 24px;
   border-bottom: 1px solid var(--nav-border);
-  background: #050505;
+  background: transparent;
 }
 
 .bs-nav-mobile-header .bs-nav-menu-button {
@@ -525,7 +525,7 @@
 /* Keep this 960px breakpoint in sync with navigation.ts. */
 @media (min-width: 960px) {
   .bs-nav-header-inner {
-    height: 56px;
+    height: 72px;
   }
 
   .bs-nav-desktop-nav {

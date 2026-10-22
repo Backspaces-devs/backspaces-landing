@@ -1,11 +1,9 @@
-import React from 'react'
+import { HomeHero } from "@/components/sections/home/hero";
 
-const Home = () => {
-    return (
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            <h1>Hello Jatin , tu hijda</h1>
-        </div>
-    )
+export default function HomePage() {
+  return (
+    <main className="bs-home-page">
+      <HomeHero />
+    </main>
+  );
 }
-
-export default Home
